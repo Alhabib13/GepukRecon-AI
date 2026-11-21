@@ -1,4 +1,4 @@
-# GepukRecon-AI 🍗📊
+# GepukRecon-AI 
 
 > **Sistem Rekonsiliasi Stok Digital dan Prediksi Kebutuhan Stok Harian pada UMKM Ayam Gepuk Bandar**  
 > *Solusi operasional berbasis Web & AI untuk meminimalisir selisih stok saat closing toko serta mengoptimalkan estimasi persediaan bahan baku harian.*
@@ -15,7 +15,7 @@
 
 ---
 
-## 🤖 Pengembangan Berbasis AI (AI-Assisted Development)
+##  Pengembangan Berbasis AI (AI-Assisted Development)
 
 Repositori dan arsitektur aplikasi ini dirancang dan dikembangkan dengan kolaborasi bersama **Antigravity CLI** (Agentic AI Assistant oleh tim **Google DeepMind**). 
 
@@ -28,7 +28,7 @@ Antigravity CLI bertindak sebagai **Senior AI Fullstack Developer** yang membant
 
 ---
 
-## 📌 Informasi Program & Tim Capstone
+##  Informasi Program & Tim Capstone
 
 Proyek ini merupakan bagian dari program **Asah 2026** yang diselenggarakan oleh **Dicoding** dan didukung oleh **GoTo**.
 
@@ -36,7 +36,7 @@ Proyek ini merupakan bagian dari program **Asah 2026** yang diselenggarakan oleh
 * **Mitra UMKM**: Ayam Gepuk Bandar (Bidang *Food and Beverage*)
 * **Repository**: [https://github.com/Alhabib13/GepukRecon-AI.git](https://github.com/Alhabib13/GepukRecon-AI.git)
 
-### 👥 Anggota Tim A26-CS192:
+###  Anggota Tim A26-CS192:
 | ID Anggota | Nama | Alur Pembelajaran (Path) | Peran dalam Proyek |
 | :--- | :--- | :--- | :--- |
 | `A26-CS192-1` | **Rahmat Nuril Mustofa** | Data Science | Data Preprocessing & Feature Engineering |
@@ -48,7 +48,7 @@ Proyek ini merupakan bagian dari program **Asah 2026** yang diselenggarakan oleh
 
 ---
 
-## 🎯 Latar Belakang & Masalah
+##  Latar Belakang & Masalah
 
 Pada UMKM **Ayam Gepuk Bandar**, proses pencatatan stok bahan baku keluar serta rekonsiliasi dengan pendapatan omset harian masih dilakukan secara manual oleh *crew* toko di buku catatan atau lembar terpisah. Hal ini menimbulkan kendala operasional:
 1. **Waktu Closing yang Lama**: Proses tutup toko (*closing*) memakan waktu lama karena pencocokan manual antara porsi keluar dengan pendapatan kasir.
@@ -57,7 +57,7 @@ Pada UMKM **Ayam Gepuk Bandar**, proses pencatatan stok bahan baku keluar serta 
 
 ---
 
-## 💡 Solusi & Fitur Utama
+##  Solusi & Fitur Utama
 
 **GepukRecon-AI** hadir sebagai aplikasi web internal (*back-office operations dashboard*) dengan fitur:
 
@@ -66,11 +66,11 @@ Pada UMKM **Ayam Gepuk Bandar**, proses pencatatan stok bahan baku keluar serta 
 3. **Modul AI Prediksi Kebutuhan Stok (Horizon 2–3 Hari)**: Menggunakan model *Machine Learning / Time Series* untuk memberikan estimasi kebutuhan stok menu harian agar kesiapan bahan baku terukur.
 4. **Dashboard Visualisasi Kepala Toko**: Menampilkan riwayat rekonsiliasi, tren omset vs stok, serta grafik rekomendasi stok secara interaktif.
 
-> ⚠️ **Catatan Batasan Sistem**: Sistem ini merupakan *management dashboard* internal, bukan aplikasi kasir perorangan (*live POS customer checkout*), tidak menyediakan *payment gateway*, dan tidak terhubung otomatis ke supplier PO.
+>  **Catatan Batasan Sistem**: Sistem ini merupakan *management dashboard* internal, bukan aplikasi kasir perorangan (*live POS customer checkout*), tidak menyediakan *payment gateway*, dan tidak terhubung otomatis ke supplier PO.
 
 ---
 
-## 🏗️ Arsitektur Teknologi
+##  Arsitektur Teknologi
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -98,7 +98,7 @@ Pada UMKM **Ayam Gepuk Bandar**, proses pencatatan stok bahan baku keluar serta 
 
 ---
 
-## 📁 Struktur Repositori
+##  Struktur Repositori
 
 ```text
 GepukRecon-AI/
@@ -139,7 +139,7 @@ GepukRecon-AI/
 
 ---
 
-## 📮 Dokumentasi & Pengujian API (Postman)
+##  Dokumentasi & Pengujian API (Postman)
 
 Koleksi Postman telah disediakan di dalam folder `postman/` untuk mempermudah tim melakukan pengujian *endpoint*:
 
@@ -158,7 +158,7 @@ Koleksi Postman telah disediakan di dalam folder `postman/` untuk mempermudah ti
 
 ---
 
-## 🚀 Panduan Instalasi & Menjalankan Lokal
+##  Panduan Instalasi & Menjalankan Lokal
 
 ### Prasyarat:
 * [Node.js](https://nodejs.org/) (versi 18 ke atas, disarankan v22+)
@@ -196,7 +196,7 @@ npm run dev
 
 ---
 
-## 📅 Rencana Pengerjaan (Timeline 4 Minggu)
+##  Rencana Pengerjaan (Timeline 4 Minggu)
 
 * **Minggu 1 (30 Okt – 5 Nov 2026)**: Inisiasi proyek, analisis kebutuhan, pembuatan data sintetis, perancangan ERD database, wireframe UI/UX, dan setup repository.
 * **Minggu 2 (6 – 12 Nov 2026)**: Pengembangan API Express.js (CRUD stok & rekonsiliasi), pembuatan halaman Front-End (Vite), serta eksplorasi dan pelatihan model Machine Learning.
